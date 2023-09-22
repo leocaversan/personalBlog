@@ -1,0 +1,10 @@
+.container {
+}
+.container > input {
+    width: 100%;
+    border:transparent solid;
+    height: 3rem;;
+    border-bottom: 1px solid #e5e6e6 ;
+    padding:.5rem;
+    border-radius:1rem;
+}

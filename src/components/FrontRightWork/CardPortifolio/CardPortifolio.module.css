@@ -1,0 +1,18 @@
+.container {
+    margin:2rem;
+    padding: 1rem; 
+    background-color: #ffe3bf;
+    border-radius:.7rem;
+}
+.container > div > img{
+    border-radius:.7rem;
+    height: 7rem;
+    width: 22rem;
+}
+.type {
+    color: #8c7a61;
+    margin-top:.3rem;
+}
+.description {
+    font-size:1.6rem;
+}

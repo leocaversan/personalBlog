@@ -1,0 +1,158 @@
+@media (min-width: 768px){
+    .container {
+        width:100%;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .socialCard {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        margin-top: 1.8rem;
+        margin-right: 1.8rem;
+        margin-left: 1.8rem;
+    
+    }
+    .imgProfile {
+        display:flex;
+        justify-content: center;
+        margin-top: -30rem;
+    }
+    .imgProfile > img {
+        border-radius:1rem;
+    }
+    
+    .name > div {
+        display:flex;
+        flex-direction: columns;
+        justify-content: center;
+        margin-top: 1.7rem;
+    }
+    
+    .cardContact {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-right:1rem;
+        margin-left: 1rem;
+        background-color: #f2f5f9;
+        border-radius:1rem;
+    }
+    
+    .imgDownload {
+        margin-top:4rem;
+        margin-bottom:4rem;
+    }
+}
+@media (max-width: 768px){
+    .container {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .socialCard {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        margin-top: 1.8rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    
+    }
+    .imgProfile {
+        display:flex;
+        justify-content: center;
+        margin-top: -5rem;
+    }
+    .imgProfile > img {
+        border-radius:1rem;
+    }
+    
+    .name > div {
+        display:flex;
+        flex-direction: columns;
+        justify-content: center;
+        margin-top: 1.7rem;
+    }
+    
+    .cardContact {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-right:2rem;
+        margin-left: 2rem;
+        background-color: #f2f5f9;
+        border-radius:1rem;
+    }
+    
+    .imgDownload {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:4rem;
+        margin-bottom:4rem;
+    }
+    
+}
+@media (max-width: 768px){
+    
+    .container {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .socialCard {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        margin-top: 1.8rem;
+        margin-right: 2rem;
+        margin-left: 1rem;
+    
+    }
+    .imgProfile {
+        display:flex;
+        justify-content: center;
+        margin-top: -5rem;
+    }
+    .imgProfile > img {
+        border-radius:1rem;
+    }
+    
+    .name > div {
+        display:flex;
+        flex-direction: columns;
+        justify-content: center;
+        margin-top: 1.7rem;
+    }
+    
+    .cardContact {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-right:4rem;
+        margin-left: 2rem;
+        background-color: #f2f5f9;
+        border-radius:1rem;
+    }
+    
+    .imgDownload {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:4rem;
+        margin-bottom:4rem;
+    }
+}
+
+.name > div {
+    font-weight:bold;
+}
+.name > div > p {
+    display:flex;
+    color: #848483;
+}

@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+    
+    .container {
+
+    }
+    .portifolioList {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 5px;
+    }
+    .AboutMe {
+        position: absolute;  
+        top: 19rem;
+    }
+}
+@media (max-width: 768px) {
+    
+    .container {
+
+    }
+    .portifolioList {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 5px;
+    }
+    .AboutMe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 500px) {
+    .portifolioList {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 5px;
+        margin-right:1rem;
+    }
+    .AboutMe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:2rem;
+    }
+}

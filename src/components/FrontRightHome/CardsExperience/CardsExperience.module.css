@@ -1,0 +1,28 @@
+.container1 {
+    background-color: #ffebd1;
+    border-radius: 2rem;
+    padding:1rem;
+    height:12rem;
+    margin:1rem;
+}
+.container2 {
+    background-color: #f2f7fc;
+    border-radius: 2rem;
+    padding:1rem;
+    height:12rem;
+    margin:1rem;
+}
+.imgTittle {
+    display:flex;
+    flex-direction:row;
+    font-size:1.8rem;
+    margin-bottom:1rem;
+    color: #000000;
+}
+.imgTittle > img {
+    margin-right:1rem;
+    margin-left:1rem;
+}
+.description {
+    color: #2e2e2f;
+}

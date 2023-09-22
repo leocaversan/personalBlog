@@ -1,0 +1,32 @@
+.container1 {
+    margin-top:1rem;
+    margin-right:1rem;
+    padding:1rem;
+    background-color:#ffeeda;
+    border-radius:1rem;
+    height:8rem;
+
+}
+.container2 {
+    margin-top:1rem;
+    margin-right:1rem;
+    padding:1rem;
+    background-color:#ffe3bf;
+    border-radius:1rem;
+    height:8rem;
+}
+.containerInfo {
+    margin-left:1rem;
+    color:#000000;
+}
+.time {
+    color:#857868;
+}
+.tittle {
+    margin-top:1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.description {
+    margin-top:0.2rem;
+}

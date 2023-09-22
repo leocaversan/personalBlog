@@ -1,0 +1,36 @@
+@media (min-width: 768px){
+    
+    .container{
+    
+    }
+    .tittle {
+        display: flex;
+        flex-direction: row;
+    }
+    .tittle > img {
+        margin-left:2rem;
+    }
+    .description {
+        color:gray;
+        font-size:1rem;
+        margin-right:2rem;
+    }
+}
+@media (max-width: 768px){
+    
+    .container{
+    
+    }
+    .tittle {
+        display: flex;
+        flex-direction: row;
+    }
+    .tittle > img {
+        margin-left:.8rem;
+    }
+    .description {
+        color:gray;
+        font-size:1rem;
+        margin-right:2rem;
+    }
+}

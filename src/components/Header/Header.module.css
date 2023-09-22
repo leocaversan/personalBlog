@@ -1,0 +1,42 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
+.header_name_light{
+    margin-top: .5rem;
+    font-weight:bold;
+    font-size: 2rem;
+}
+.header_name_dark {
+    margin-top: .5rem;
+    font-weight:bold;
+    font-size: 2rem;
+    color: #fff;
+}
+.header_mode_light{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+}
+.header_mode_dark {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+}
+.body {
+    margin-top:2rem;
+    margin-right:2rem;
+    margin-left:2rem;
+}
