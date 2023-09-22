@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/personalBlog/static/css/main.e75d7b15.css",
+    "main.js": "/personalBlog/static/js/main.5ab95e89.js",
+    "static/js/787.974fb40c.chunk.js": "/personalBlog/static/js/787.974fb40c.chunk.js",
+    "static/media/profile_image.png": "/personalBlog/static/media/profile_image.d594d8ebd03bcacbdd58.png",
+    "static/media/imgDownload.svg": "/personalBlog/static/media/imgDownload.6ba1c3828f06bd07827176b0afa4048b.svg",
+    "static/media/imgButtonResumeDeactivate.svg": "/personalBlog/static/media/imgButtonResumeDeactivate.4d3bdc7fe31e4f39d084e565d4fed348.svg",
+    "static/media/imgButtonResumeActivate.svg": "/personalBlog/static/media/imgButtonResumeActivate.ded0bff482681a095a151905761797b2.svg",
+    "static/media/imgButtonContactDeactivete.svg": "/personalBlog/static/media/imgButtonContactDeactivete.0b1cf771ef91376c62686a7c097eda60.svg",
+    "static/media/imgButtonContactActiveted.svg": "/personalBlog/static/media/imgButtonContactActiveted.7df3abcbd0c68c8c7af0e7edd10e16c2.svg",
+    "static/media/imgButtonHomeDeactivate.svg": "/personalBlog/static/media/imgButtonHomeDeactivate.edd7683cb6b4d12e4982e698f353e75a.svg",
+    "static/media/imgButtonHomeActivate.svg": "/personalBlog/static/media/imgButtonHomeActivate.5847c8e451159e13a263a4ae00cbe47f.svg",
+    "static/media/imgButtonWorkDeactivete.svg": "/personalBlog/static/media/imgButtonWorkDeactivete.6fbc1cec455778a9af2ea4e3eec1819c.svg",
+    "static/media/imgButtonWorkActivate.svg": "/personalBlog/static/media/imgButtonWorkActivate.ddab5a544d8fd3413c6574ebd908d7ea.svg",
+    "static/media/imgExperience.svg": "/personalBlog/static/media/imgExperience.3b98984cf24cfa9c52ba50ae9ea64cc1.svg",
+    "static/media/imgTel.svg": "/personalBlog/static/media/imgTel.b1afae87f9e91f0a14a2e47a56ad792d.svg",
+    "static/media/moonDark.svg": "/personalBlog/static/media/moonDark.cae8b27513e7784c2ac85a1baa97121a.svg",
+    "static/media/moonLight.svg": "/personalBlog/static/media/moonLight.f24de79522295d16c02f5042de519e15.svg",
+    "static/media/imgGitHub.svg": "/personalBlog/static/media/imgGitHub.a7df01c07f04e14a0d545bb8a19d8be9.svg",
+    "static/media/imgTwitter.svg": "/personalBlog/static/media/imgTwitter.67a2b6640decc00276eabdd488f6fb66.svg",
+    "static/media/imgEducation.svg": "/personalBlog/static/media/imgEducation.06a7d8ed5e735684854776c5ca5a6418.svg",
+    "static/media/imgIconLocation.svg": "/personalBlog/static/media/imgIconLocation.14c247e198ab2386d210f07a4fa7b58c.svg",
+    "static/media/imgLinkdIn.svg": "/personalBlog/static/media/imgLinkdIn.19e005da4a82c086a749f7117422ceb0.svg",
+    "index.html": "/personalBlog/index.html",
+    "static/media/imgMail.svg": "/personalBlog/static/media/imgMail.12421c092a1d7248c3418c395961bbb4.svg",
+    "static/media/imgFacebook.svg": "/personalBlog/static/media/imgFacebook.9945b4f3eaf26873c3848f98eb210b33.svg",
+    "static/media/imgLine.svg": "/personalBlog/static/media/imgLine.171a405db0c82ca477d6c4ae8eea0732.svg",
+    "main.e75d7b15.css.map": "/personalBlog/static/css/main.e75d7b15.css.map",
+    "main.5ab95e89.js.map": "/personalBlog/static/js/main.5ab95e89.js.map",
+    "787.974fb40c.chunk.js.map": "/personalBlog/static/js/787.974fb40c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e75d7b15.css",
+    "static/js/main.5ab95e89.js"
+  ]
+}
