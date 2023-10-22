@@ -10,7 +10,8 @@ const FrontRight = () => {
             <div className={style.AboutMe}>
                 <AboutMe
                     tittle={'About Me'}
-                    description={'Data Analytics, developer front-end using frameworks wich React and Angular and back-end using Python, Go, Node, TypeScript and JavaScript.'}
+                    description={
+                        'Data Analytics, developer front-end using frameworks wich React and Angular and back-end using Python, Go, Node, TypeScript and JavaScript.'}
                     img = {imgLine}
                 />
 
@@ -24,13 +25,13 @@ const FrontRight = () => {
                         color={false    }
                         img={undefined}
                         tittle={'Data Analyst'}
-                        description={'Execute Python ETL scripts for data extraction, transformation, and loading (ETL). Create data models and design dashboards in Power BI and Tableau for data analysis and visualization.'}
+                        description={'Execute Python ETL scripts for data extraction, transformation, and loading (ETL). Using Power BI and Tableau to data visualization.'}
                     />
                     <CardsExperience
                         color={true}
                         img={undefined}
                         tittle={'Machine Learning'}
-                        description={'Supervising machine learning model development using Naive Bayes, Random Forest, and Decision Trees for enhanced insights.'}
+                        description={' Train Supervisioned Models using Naive Bayes, Random Forest, and Decision Trees for enhanced insights.'}
                     />
                 </div>
                 <div className={style.ExperienceCards}>
@@ -38,13 +39,13 @@ const FrontRight = () => {
                         color={false}
                         img={undefined}
                         tittle={'Web Development'}
-                        description={'Created and deploy App in React and Angular TypeScript, HTML and CSS with experience in TailWindCss too.'}
+                        description={'Created and deploy App in React and Angular using TypeScript, HTML and CSS with experience in TailWindCss too.'}
                     />
                     <CardsExperience
                         color={true}
                         img={undefined}
                         tittle={'BackEnd Developer'}
-                        description={'Created and deploy by arquiteture REST in amazon AWS LAMBDA with Python, NodeJs and Go. Using "Serviless" Framework or container bu deploy.'}
+                        description={'Created and deploy REST arquiteture in amazon AWS LAMBDA with Python, NodeJs. Using "Serviless" Framework or container bu deploy. Create local server and realize deploy in Amazon EC2 and docker container in Go, Python, Node'}
                     />
                     <CardsExperience
                         color={false}

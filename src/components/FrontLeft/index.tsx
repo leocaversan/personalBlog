@@ -13,6 +13,7 @@ import imgLinkdIn from '../../Assets/imgs/SocialMidia/imgLinkdIn.svg'
 import imgTwiter from '../../Assets/imgs/SocialMidia/imgTwitter.svg'
 import imgGitHub from '../../Assets/imgs/SocialMidia/imgGitHub.svg'
 
+const linkCurriculum = 'https://my-personal-curriculum-download-link.s3.amazonaws.com/Profile+(5).pdf'
 const FrontLeft = () => {
     return (
         <div className={style.container}>
@@ -25,7 +26,7 @@ const FrontLeft = () => {
                 </div>
                 <div>
                     <p>
-                        Full Stack Developer
+                        Data Analyst at Deloitte
                     </p>
                 </div>
             </div>
@@ -57,11 +58,26 @@ const FrontLeft = () => {
             </div>
             <div className={style.cardContact}>
                 {/* <CardContact img={imgPhone} name={"Phone"} description={"(19)983488358"} /> */}
-                <CardContact img={imgMail} name={"Mail"} description={"leo_caversan@live.com"} />
-                <CardContact img={imgIconLocation} name={"Location"} description={"Paulinia - São Paulo - Brasil"} />
+                <CardContact
+                    img={imgMail}
+                    name={"Mail"}
+                    description={"leo_caversan@live.com"}
+                />
+                <CardContact
+                    img={imgIconLocation}
+                    name={"Location"}
+                    description={"Paulinia - São Paulo - Brasil"}
+                />
             </div>
             <div className={style.imgDownload}>
-                <img src={imgDownload} width={400} height={80} alt="" />
+                <img
+                    src={imgDownload}
+                    width={400}
+                    height={80}
+                    alt=""
+                    onClick={
+                        () => { window.location.replace(linkCurriculum); }
+                    } />
             </div>
         </div>
     );

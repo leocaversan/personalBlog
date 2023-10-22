@@ -67,7 +67,7 @@
 
     .container1{
         flex-direction: column;
-        height: 1000vh;
+        height: 1000vh;   
     }
     .container2{
         flex-direction: column;

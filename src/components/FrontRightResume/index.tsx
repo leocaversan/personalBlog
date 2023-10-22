@@ -21,52 +21,60 @@ const FrontRightResume = () => {
                 <div>
                     <Topics
                         img={imgEducation}
-                        tittle={"Software Engineer"} />
+                        tittle={"Software Engineer"}
+                    />
 
                     <ExperienceCards
                         timeBegin={"2023"}
                         timeFinaly={"Actual experience"}
                         tittle={"Software Engineer full-stack"}
                         description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
-                        color={true} />
+                        color={true}
+                    />
                     <ExperienceCards
                         timeBegin={"2023"}
                         timeFinaly={"Actual experience"}
                         tittle={"Software Engineer full-stack"}
                         description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
-                        color={false} />
+                        color={false}
+                    />
                 </div>
                 <div>
                     <Topics
                         img={imgExperience}
-                        tittle={"Software Engineer"} />
+                        tittle={"Software Engineer"}
+                    />
 
                     <ExperienceCards
                         timeBegin={"2023"}
                         timeFinaly={"Actual experience"}
                         tittle={"Software Engineer full-stack"}
                         description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
-                        color={false} />
+                        color={false}
+                    />
                     <ExperienceCards
                         timeBegin={"2023"}
                         timeFinaly={"Actual experience"}
                         tittle={"Software Engineer full-stack"}
                         description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
-                        color={true} />
+                        color={true}
+                    />
                 </div>
             </div>
             <div className={style.skills}>
                 <Skills
                     tittle={"Soft Skills"}
                     skills={
-                        ["HTML", "CSS", "REACT", "ANGULAR", "TYPESCRIPT", 
+                        ["HTML", "CSS", "REACT", "ANGULAR", "TYPESCRIPT",
                             "PYTHON", "SQL", "MONGODB", "AWS", "RD2", "IA"]
-                    } />
+                    }
+                />
                 <Skills
                     tittle={"Work Skills"}
                     skills={
                         ["", "", "", "", "", "", "", "", "", "", ""]
-                    } />
+                    }
+                />
             </div>
         </div>
     );
