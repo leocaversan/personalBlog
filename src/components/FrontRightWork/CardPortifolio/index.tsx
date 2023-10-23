@@ -1,8 +1,12 @@
 import style from './CardPortifolio.module.css'
-import { AboutMeProps } from '../../../Props/props'
-const CardPortifolio = ({ img, tittle, description } : AboutMeProps) => {
+import { CardPortifolioProps } from '../../../Props/props'
+const CardPortifolio = ({ img, tittle, description, link } : CardPortifolioProps) => {
     return (
-        <span className={style.container}>
+        <span 
+            className={style.container}
+            onClick={
+                () => window.location.href = link
+            }>
             <div>
                 <img
                     src={img}

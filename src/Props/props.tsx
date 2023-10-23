@@ -15,6 +15,12 @@ export interface AboutMeProps {
     description:string
     img:any
 }
+export interface CardPortifolioProps {
+    tittle:string,
+    description:string
+    img:any, 
+    link: any
+}
 export interface CardsExperienceProps extends AboutMeProps{
     color:boolean,
     img:any

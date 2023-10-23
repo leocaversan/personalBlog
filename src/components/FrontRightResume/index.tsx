@@ -49,14 +49,14 @@ const FrontRightResume = () => {
                         timeBegin={"2023"}
                         timeFinaly={"Actual experience"}
                         tittle={"Analysis And Systems Development - IFSP"}
-                        description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
+                        description={"Devoloper front-end using frameworks react and angular with Typescript and microservices in python, GoLang and NodeJs, work with Java and MySQL."}
                         color={false}
                     />
                     <ExperienceCards
                         timeBegin={"2023"}
                         timeFinaly={"Actual experience"}
                         tittle={"Mathematics - IFSP"}
-                        description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
+                        description={"Developing logical reasoning through calculation, physics and other exact subjects"}
                         color={true}
                     />
                 </div>
