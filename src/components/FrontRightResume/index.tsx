@@ -13,49 +13,49 @@ const FrontRightResume = () => {
             <div className={style.AboutMe}>
                 <AboutMe
                     tittle={'Resume'}
-                    description={'Software Enginner Full Stack created microsservices and front developer using react and Angular'}
+                    description={'Data Analytics with experience in python, SQL, Power BI and Tableau.'}
                     img={imgLine}
                 />
             </div>
             <div className={style.tittles}>
                 <div>
                     <Topics
-                        img={imgEducation}
-                        tittle={"Software Engineer"}
+                        img={imgExperience}
+                        tittle={"Professional experience"}
                     />
 
                     <ExperienceCards
-                        timeBegin={"2023"}
+                        timeBegin={"2021"}
                         timeFinaly={"Actual experience"}
-                        tittle={"Software Engineer full-stack"}
-                        description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
+                        tittle={"Data Analytics at Deloitte"}
+                        description={"Realize the ETL operations using python to extract and transform the data and power BI or Excel to load ensuring integrity and validation of data after extraction and transformation."}
                         color={true}
                     />
                     <ExperienceCards
-                        timeBegin={"2023"}
-                        timeFinaly={"Actual experience"}
-                        tittle={"Software Engineer full-stack"}
-                        description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
+                        timeBegin={"2020 - 2021"}
+                        timeFinaly={"Last experience"}
+                        tittle={"Trainee of help desk and service at CPFL"}
+                        description={"Solve problems related to Office 365 integration realize calls to Microssoft São Paulo and Microssoft India. Created app webscraping in python to get info in CRM aplication and RPA to atomate the process of open tickets."}
                         color={false}
                     />
                 </div>
                 <div>
                     <Topics
-                        img={imgExperience}
-                        tittle={"Software Engineer"}
+                        img={imgEducation}
+                        tittle={"Academic experience"}
                     />
 
                     <ExperienceCards
                         timeBegin={"2023"}
                         timeFinaly={"Actual experience"}
-                        tittle={"Software Engineer full-stack"}
+                        tittle={"Analysis And Systems Development - IFSP"}
                         description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
                         color={false}
                     />
                     <ExperienceCards
                         timeBegin={"2023"}
                         timeFinaly={"Actual experience"}
-                        tittle={"Software Engineer full-stack"}
+                        tittle={"Mathematics - IFSP"}
                         description={"Devoloper front-end using frameworks react and angular with Typescript nd microservices in python, GoLang and NodeJs"}
                         color={true}
                     />
@@ -65,14 +65,15 @@ const FrontRightResume = () => {
                 <Skills
                     tittle={"Soft Skills"}
                     skills={
-                        ["HTML", "CSS", "REACT", "ANGULAR", "TYPESCRIPT",
-                            "PYTHON", "SQL", "MONGODB", "AWS", "RD2", "IA"]
+                        ["HTML", "CSS", "REACT"]
                     }
                 />
                 <Skills
-                    tittle={"Work Skills"}
+                    tittle={"Hard Skills"}
                     skills={
-                        ["", "", "", "", "", "", "", "", "", "", ""]
+                        ["HTML", "Css", "REACT", "ANGULAR", "TypeScript",
+                            "Python", "SQLServer", "PostGres", "GoLang", "MongoDB",
+                            "AWS", "NodeJs", "MachineLearning", "Docker", "Kubernets"]
                     }
                 />
             </div>

@@ -7,37 +7,49 @@ import imgMail from '../../Assets/imgs/Contact/imgMail.svg';
 
 import style from './FrontRightContact.module.css'
 import CardMessage from "./CardMessage";
+import { useState } from "react";
+
 const FrontRightContact = () => {
+    
+    const [name, setName] = useState('');    
+    const [mail, setMail] = useState('');    
+    const [message, setMessage] = useState('');    
+    
     return (
         <div className={style.conatiner}>
             <div className={style.AboutMe}>
                 <AboutMe
                     tittle={"Contact"}
                     description={""}
-                    img={imgLine} />
+                    img={imgLine}
+                />
             </div>
             <div className={style.cardContatInfos}>
                 <CardContactInfo
                     tittle={"Phone:"}
                     img={imgTel}
                     color={false}
-                    arrayDescription={["19983488358", "19983488358", "19983488358"]} />
+                    arrayDescription={
+                        ["(19)9834-88358"]}
+                />
                 <CardContactInfo
-                    tittle={"Phone:"}
+                    tittle={"Mail:"}
                     img={imgMail}
                     color={false}
-                    arrayDescription={["19983488358", "19983488358", "19983488358"]} />
+                    arrayDescription={["leo_caversan@live.com"]}
+                />
             </div>
             <div>
-            <CardMessage 
-                description={"I am always open to discurssing new projects p[[prtunities in tech world partnerships and more so mentorship."} 
-                input1={"Name:"} 
-                input2={"Email:"} 
-                input3={"Message:"} 
-                buttonName={"Submit"} 
-                functionButton={function (): void {
-                    throw new Error("Function not implemented.");
-                } }/>
+                <CardMessage
+                    description={"Please leave your contact details so I can call you."}
+                    input1={"Name:"}
+                    input2={"Email:"}
+                    input3={"Message:"}
+                    buttonName={"Submit"}
+                    functionButton={function (): void {
+                        throw new Error("Function not implemented.");
+                    }}
+                />
             </div>
         </div>
     );
