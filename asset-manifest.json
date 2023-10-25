@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalBlog/static/css/main.e75d7b15.css",
-    "main.js": "/personalBlog/static/js/main.b01fc4cd.js",
+    "main.css": "/personalBlog/static/css/main.a9a4a022.css",
+    "main.js": "/personalBlog/static/js/main.92b77f88.js",
     "static/js/787.974fb40c.chunk.js": "/personalBlog/static/js/787.974fb40c.chunk.js",
     "static/media/profile_image.png": "/personalBlog/static/media/profile_image.d594d8ebd03bcacbdd58.png",
     "static/media/imgDownload.svg": "/personalBlog/static/media/imgDownload.6ba1c3828f06bd07827176b0afa4048b.svg",
@@ -26,12 +26,12 @@
     "static/media/imgMail.svg": "/personalBlog/static/media/imgMail.12421c092a1d7248c3418c395961bbb4.svg",
     "static/media/imgFacebook.svg": "/personalBlog/static/media/imgFacebook.9945b4f3eaf26873c3848f98eb210b33.svg",
     "static/media/imgLine.svg": "/personalBlog/static/media/imgLine.171a405db0c82ca477d6c4ae8eea0732.svg",
-    "main.e75d7b15.css.map": "/personalBlog/static/css/main.e75d7b15.css.map",
-    "main.b01fc4cd.js.map": "/personalBlog/static/js/main.b01fc4cd.js.map",
+    "main.a9a4a022.css.map": "/personalBlog/static/css/main.a9a4a022.css.map",
+    "main.92b77f88.js.map": "/personalBlog/static/js/main.92b77f88.js.map",
     "787.974fb40c.chunk.js.map": "/personalBlog/static/js/787.974fb40c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e75d7b15.css",
-    "static/js/main.b01fc4cd.js"
+    "static/css/main.a9a4a022.css",
+    "static/js/main.92b77f88.js"
   ]
 }
