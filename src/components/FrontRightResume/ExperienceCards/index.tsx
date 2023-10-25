@@ -5,7 +5,7 @@ import { ExperienceCardsProps } from '../../../Props/props';
 const ExperienceCards = ({ timeBegin, timeFinaly, tittle, description, color }: ExperienceCardsProps) => {
     return (
         <div className={color ? style.container1 : style.container2}>
-            <div className={style.containerInfo}>
+            <span className={style.containerInfo}>
                 <div className={style.time}>
                     {timeBegin} - {timeFinaly}
                 </div>
@@ -15,7 +15,7 @@ const ExperienceCards = ({ timeBegin, timeFinaly, tittle, description, color }: 
                 <div className={style.description}>
                     {description}
                 </div>
-            </div>
+            </span>
         </div>
     );
 };

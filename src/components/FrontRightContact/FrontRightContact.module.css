@@ -22,7 +22,7 @@
         padding: 1rem;
     }
     .cardContatInfos {
-        display: flex;
+        /* display: flex; */
         flex-direction: row;
         margin:1rem;
     }
